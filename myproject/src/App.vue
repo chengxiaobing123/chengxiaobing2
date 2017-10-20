@@ -1,10 +1,10 @@
 <template>
   <div id="app">
-      <router-view/>
+      
       <headers></headers>
-      <daohang></daohang>
-      <swipter></swipter>
-      <selector></selector>
+      
+      
+      <router-view/>
   </div>
 </template>
 

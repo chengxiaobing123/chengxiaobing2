@@ -1,7 +1,7 @@
 <template>
 	<div id="swipter">
 		<mt-swipe :auto="4000">
-		  <mt-swipe-item v-for="item in list"><img :src="item.logo"></mt-swipe-item>
+		  <mt-swipe-item v-for="item in list" key="item.logo"><img :src="item.logo"></mt-swipe-item>
 		  <!-- <mt-swipe-item>2</mt-swipe-item>
 		  <mt-swipe-item>3</mt-swipe-item>
 		  <mt-swipe-item>4</mt-swipe-item>

@@ -1,16 +1,23 @@
 <template>
 	<div>
 		<div id="header4">
-			<div id="header1" @click><i class="iconfont">&#xe60a;</i></div>
-			<div id="header3"><a href="#"></a></div>
-			<div id="header2"><i class="iconfont">&#xe60e;</i></div>
+			<router-link to="daohangtiao"><div id="header1" @click><i class="iconfont">&#xe60a;</i></div></router-link>
+			<div id="header3"><router-link to="/"></router-link></div>
+			<router-link to="/sousuo"><div id="header2" @click="cc()" ><i class="iconfont">&#xe60e;</i></div></router-link>
 		</div>
 	</div>
 </template>
 
 <script>
 	export default{
-		name:'headers'
+		
+		name:'headers',
+		methods:{
+			cc:function(){
+				var cc=document.querySelector('#header2');
+				cc.style.color='red';
+			}
+		}
 	}
 </script>
 
@@ -30,6 +37,7 @@
 		display:flex;
 		justify-content:space-between;
 		/*height:40px;*/
+		background:white;
 	}
 	#header1{
 		height:40px;
@@ -55,6 +63,10 @@
 		/*float:right;*/
 		text-align:center;
 		line-height:40px;
+
+	}
+	a{
+		text-decoration: none;
 	}
 	#header2 i{
 		font-size:20px;

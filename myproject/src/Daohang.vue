@@ -1,11 +1,11 @@
 <template>
 	<div class="daohang">
 		<ul>
-			<li><a href="">首页</a></li>
-			<li><a href="">AC正义</a></li>
-			<li><a href="">娱乐</a></li>
-			<li><a href="">游戏</a></li>
-			<li><a href="">▪ ▪ ▪</a></li>
+			<li><router-link to="/">首页</router-link></li>
+			<li><router-link to="/find">AC正义</router-link></li>
+			<li><router-link to="/yule">娱乐</router-link></li>
+			<li><router-link to="/game">游戏</router-link></li>
+			<li><router-link to="/diandian">▪ ▪ ▪</router-link></li>
 		</ul>
 	</div>
 </template>

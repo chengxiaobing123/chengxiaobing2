@@ -1,6 +1,6 @@
 <template>
 	<div id="h2">
-		<a href=""><h2><span>文章</span><i class="iconfont">&#xe62d;</i></h2></a>
+		<router-link to="zonghe"><h2><span>文章</span><i class="iconfont">&#xe62d;</i></h2></router-link>
 		<ul>
 			<li>
 				<div><img :src="src"></div>

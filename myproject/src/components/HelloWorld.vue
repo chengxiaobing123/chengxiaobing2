@@ -1,7 +1,14 @@
 <template>
   <div class="hello">
-    
-     
+  	<daohang></daohang>
+    <swipter></swipter>
+      <selector></selector>
+      <dondhua></dondhua>
+      <erciyuan></erciyuan>
+      <guochan></guochan>
+      <yinyue></yinyue>
+      <youxi></youxi>
+     <footers></footers>
   </div>
 </template>
 
